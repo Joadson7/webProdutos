@@ -16,5 +16,9 @@ export const routes: Routes = [
     {
         path: 'pages/edicao-produtos',
         component: EdicaoProdutosComponent
+    },
+    {
+        path: '', pathMatch: 'full',
+        redirectTo: 'pages/consulta-produtos'
     }
 ];
